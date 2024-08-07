@@ -1,8 +1,9 @@
 # Jekyll configuration
+# Build settings
 markdown: kramdown
 # kramdown : markdown의 개조판.
 # markdown에서 불편한 사항을 개선한 형태.
-
+theme : minima
 # MyData
 owner:
   name:           Mean71 Park
@@ -34,7 +35,7 @@ paginate: 20
 language: 'en-uk'
 # 언어 설정
 
-url: https://github.com/mean71
+url: https://mean71.github.io
 # Google Search Console에서 사용하는 sitemap.xml 생성시
 # 이 url key값이 존재하지 않으면 sitemap.xml이
 # 정상적으로 생성되지 않는다.
@@ -42,13 +43,13 @@ url: https://github.com/mean71
 # 자신의 github page url을 입력
 # ( https://your_github_id.github.io 형식 )
 
-baseurl: /
+baseurl: "" # 사이트 하위경로, e.g. 예) /blog
 
 # Website info
-title: Data AI Training study log
+title: Mean71 Data AI Training study library
 # 자신의 blog title.
 
-description: DataAI 교육과정 학습기록
+description: Welcome to my blog!
 # blog home에 표시될 blog에 대한 전반적인 설명.
 
 cover: assets/built/images/blog-cover1.png
