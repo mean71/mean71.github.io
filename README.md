@@ -1,3 +1,7 @@
+bundle exec jekyll serve
+
+**사이트 확인**: 웹 브라우저를 열고 `http://localhost:4000`에 접속하여 사이트가 제대로 실행되는지 확인
+
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
